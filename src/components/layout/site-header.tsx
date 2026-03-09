@@ -31,7 +31,7 @@ export function SiteHeader() {
           : "border-b border-border/45 bg-background/78 backdrop-blur supports-[backdrop-filter]:bg-background/68",
       )}
     >
-      <div className="site-container flex items-center justify-between gap-4 py-2.5 md:py-3">
+      <div className="site-container flex items-center justify-between gap-3 py-2.5 md:py-3">
         <Link href="/" className="flex items-center gap-3">
           <Image
             src="/logo-webseite-header.png"
@@ -39,24 +39,24 @@ export function SiteHeader() {
             width={220}
             height={34}
             priority
-            className="h-auto w-[146px] min-[390px]:w-[170px] md:w-[205px]"
+            className="h-auto w-[146px] min-[390px]:w-[170px] md:w-[214px] lg:w-[224px]"
           />
           <span className="sr-only">Zur Startseite</span>
         </Link>
 
-        <nav className="hidden items-center gap-1 lg:flex">
+        <nav className="hidden items-center gap-0.5 lg:flex xl:gap-1">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="rounded-full px-3 py-2 text-[15px] font-medium text-foreground/84 transition-colors hover:bg-muted hover:text-foreground"
+              className="whitespace-nowrap rounded-full px-2.5 py-2 text-sm font-medium text-foreground/84 transition-colors hover:bg-muted hover:text-foreground xl:px-3"
             >
               {item.label}
             </Link>
           ))}
         </nav>
 
-        <div className="hidden items-center gap-2 md:flex">
+        <div className="hidden items-center gap-1.5 md:flex lg:gap-2">
           <TrackedCta
             href={callbackBookingUrl}
             size="sm"
