@@ -104,7 +104,7 @@
   html {
     scroll-behavior: smooth;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
 
   body {
@@ -112,7 +112,7 @@
     color: var(--text-body);
     min-height: 100dvh;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: clip;
     background-image: linear-gradient(
       180deg,
       color-mix(in srgb, var(--background) 94%, #f4f2ec 6%) 0%,

@@ -50,9 +50,9 @@ export default function Home() {
             </div>
 
             <h1 className="mt-4 max-w-3xl wrap-break-word font-heading text-[1.85rem] leading-[1.05] sm:text-[2.05rem] md:text-[2.75rem] lg:text-[3.3rem]">
-              Bringen Sie Licht ins dunkle —
+              Bringen Sie Licht ins dunkle.
               <br className="hidden md:block" />
-              sauber geplant, sicher umgesetzt.
+               Sauber geplant, sicher umgesetzt.
             </h1>
 
             <p className="mt-4 max-w-2xl wrap-break-word text-[0.98rem] leading-relaxed text-text-body md:text-[1.04rem]">
@@ -164,7 +164,7 @@ export default function Home() {
       <SectionFrame
         tone="section"
         kicker="Ablauf"
-        title="So wird aus einem Anliegen ein sauberer nächster Schritt"
+        title="So wird aus einem Anliegen ein präziser nächster Schritt"
         description="Klar im Ablauf. Ruhig in der Kommunikation. Sauber in der Umsetzung."
         className="signal-grid"
         contentClassName="py-12 md:py-14"
