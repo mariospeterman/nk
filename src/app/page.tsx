@@ -52,7 +52,7 @@ export default function Home() {
             <h1 className="mt-4 max-w-3xl wrap-break-word font-heading text-[1.85rem] leading-[1.05] sm:text-[2.05rem] md:text-[2.75rem] lg:text-[3.3rem]">
               Bringen Sie Licht ins dunkle.
               <br className="hidden md:block" />
-               Sauber geplant, sicher umgesetzt.
+              {" "}Sauber geplant, sicher umgesetzt.
             </h1>
 
             <p className="mt-4 max-w-2xl wrap-break-word text-[0.98rem] leading-relaxed text-text-body md:text-[1.04rem]">
