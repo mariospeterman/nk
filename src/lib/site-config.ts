@@ -398,6 +398,7 @@ export const navItems = [
   { href: "/leistungen", label: "Leistungen" },
   { href: "/vermietung", label: "Vermietung" },
   { href: "/projekte", label: "Projekte" },
+  { href: "/ueber-uns", label: "Über mich" },
   { href: "/einsatzgebiet", label: "Einsatzgebiet" },
   { href: "/faq", label: "FAQ" },
   { href: "/kontakt", label: "Kontakt" },

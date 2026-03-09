@@ -267,6 +267,11 @@ export default function Home() {
         <p className="mt-4 text-sm font-semibold text-action-strong">
           Kurz gesagt: weniger Reibung, mehr Lösung.
         </p>
+        <div className="mt-4">
+          <Link href="/ueber-uns" className="arrow-link">
+            Mehr über mich
+          </Link>
+        </div>
       </SectionFrame>
 
       <SectionFrame

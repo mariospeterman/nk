@@ -30,6 +30,11 @@ export function SiteFooter() {
                 {siteConfig.email}
               </a>
             </p>
+            <p className="mt-4 text-sm text-white/82">
+              <Link href="/ueber-uns" className="underline underline-offset-4 hover:text-white">
+                Über mich
+              </Link>
+            </p>
           </div>
 
           <div>
