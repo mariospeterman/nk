@@ -14,7 +14,7 @@ import {
 export const metadata = buildMetadata({
   title: "Leistungen",
   description:
-    "Alle Leistungen von Elektro Kunath: Elektroinstallation, Licht, Photovoltaik, Smart Home, Prüfung und Baustrom.",
+    "Alle Leistungen von Elektro Kunath: Elektroinstallation, Licht, Photovoltaik, Smart Home, Prüfung, Baustrom und Vermietung.",
   path: "/leistungen",
 });
 
@@ -62,6 +62,30 @@ export default function LeistungenPage() {
               </Link>
             </article>
           ))}
+
+          <article className="rounded-2xl border border-border bg-card p-5">
+            <h2 className="font-heading text-xl">Vermietung</h2>
+            <p className="mt-3 text-sm text-foreground/82">
+              Vermietung von Baustromverteilern mit optionaler Installation und
+              klarer Abstimmung zu Ort, Zeitraum und Leistungsbedarf.
+            </p>
+            <ul className="mt-4 space-y-2 text-sm text-foreground/75">
+              <li className="flex gap-2">
+                <span aria-hidden>•</span>
+                <span>Temporäre Stromversorgung für Baustellen</span>
+              </li>
+              <li className="flex gap-2">
+                <span aria-hidden>•</span>
+                <span>Fachgerechte Installation auf Wunsch inklusive</span>
+              </li>
+            </ul>
+            <Link
+              href="/vermietung"
+              className="mt-5 inline-block text-sm font-semibold text-primary underline underline-offset-4"
+            >
+              Zur Vermietungsseite
+            </Link>
+          </article>
         </div>
       </SectionFrame>
     </>

@@ -6,6 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPaths = [
     "/",
     "/leistungen",
+    "/vermietung",
     "/projekte",
     "/ueber-uns",
     "/einsatzgebiet",

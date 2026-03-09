@@ -9,7 +9,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Über uns",
   description:
-    "Elektro Kunath ist ein meistergeführter Fachbetrieb mit regionalem Fokus auf Pulsnitz und Umgebung.",
+    "Nico Kunath ist Elektrotechnikermeister mit regionalem Fokus auf Pulsnitz, Oberlichtenau, Kamenz und Umgebung.",
   path: "/ueber-uns",
 });
 
@@ -17,29 +17,47 @@ export default function UeberUnsPage() {
   return (
     <>
       <PageHero
-        kicker="Über uns"
-        title="Meisterbetrieb mit Fokus auf Klarheit, Sicherheit und Entlastung"
-        description="Elektro Kunath verbindet fachliche Präzision mit verständlicher Kommunikation und strukturierten Abläufen."
+        kicker="Über mich"
+        title="Herzlich willkommen bei Elektro Kunath"
+        description="Ich bin Nico Kunath, Elektrotechnikermeister mit Fokus auf saubere Ausführung, klare Einschätzung und zuverlässige Betreuung in der Region."
       >
         <Button asChild className="rounded-full">
           <Link href="/kontakt">Kontakt aufnehmen</Link>
         </Button>
       </PageHero>
 
-      <SectionFrame title="Wofür wir stehen">
+      <SectionFrame
+        title="Über mich"
+        description="Persönlich, regional und fachlich klar aufgestellt."
+      >
+        <div className="space-y-4 rounded-2xl border border-border bg-card p-6">
+          <p className="text-sm leading-relaxed text-foreground/82">
+            Seit 2012 bin ich im Elektrohandwerk tätig, seit 2022 als
+            Elektrotechnikermeister. Mein Ziel ist eine Umsetzung, die technisch sauber,
+            nachvollziehbar und alltagstauglich ist.
+          </p>
+          <p className="text-sm leading-relaxed text-foreground/82">
+            Ich betreue Projekte im Raum Pulsnitz, Oberlichtenau, Kamenz und Umgebung.
+            Ob Installation, Modernisierung, Prüfung, Licht, PV oder Smart Home: Sie
+            bekommen eine klare Einordnung und einen verlässlichen nächsten Schritt.
+          </p>
+        </div>
+      </SectionFrame>
+
+      <SectionFrame title="Wofür ich stehe">
         <div className="grid gap-4 md:grid-cols-3">
           {[
             {
               title: "Klarheit",
-              text: "Verständliche Einschätzungen statt technischer Unschärfe.",
+              text: "Verständliche Einschätzung statt technischer Unschärfe.",
             },
             {
               title: "Sicherheit",
-              text: "Fachgerechte Ausführung mit Blick auf Langzeitstabilität.",
+              text: "Fachgerechte Ausführung mit Blick auf langfristige Stabilität.",
             },
             {
-              title: "Entlastung",
-              text: "Weniger Abstimmungschaos durch strukturierte Projektführung.",
+              title: "Verlässlichkeit",
+              text: "Direkte Abstimmung und saubere Umsetzung ohne unnötige Schleifen.",
             },
           ].map((item) => (
             <article key={item.title} className="rounded-2xl border border-border bg-card p-5">

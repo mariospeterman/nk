@@ -396,6 +396,7 @@ export const projects: ProjectExample[] = [
 
 export const navItems = [
   { href: "/leistungen", label: "Leistungen" },
+  { href: "/vermietung", label: "Vermietung" },
   { href: "/projekte", label: "Projekte" },
   { href: "/einsatzgebiet", label: "Einsatzgebiet" },
   { href: "/faq", label: "FAQ" },

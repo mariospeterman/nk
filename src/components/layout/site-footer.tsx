@@ -42,6 +42,11 @@ export function SiteFooter() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link href="/vermietung" className="hover:text-white">
+                  Vermietung
+                </Link>
+              </li>
             </ul>
           </div>
 
