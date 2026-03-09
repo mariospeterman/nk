@@ -1,0 +1,24 @@
+type AnalyticsProps = Record<string, string | number | boolean>;
+
+declare global {
+  interface Window {
+    plausible?: (eventName: string, options?: { props?: AnalyticsProps }) => void;
+  }
+}
+
+export function trackEvent(eventName: string, props?: AnalyticsProps) {
+  if (typeof window === "undefined") {
+    return;
+  }
+
+  if (typeof window.plausible !== "function") {
+    return;
+  }
+
+  if (props && Object.keys(props).length > 0) {
+    window.plausible(eventName, { props });
+    return;
+  }
+
+  window.plausible(eventName);
+}

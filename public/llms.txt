@@ -1,0 +1,23 @@
+# Elektro Kunath
+
+Elektro Kunath ist ein Elektrotechnikermeisterbetrieb im Raum Pulsnitz / Oberlichtenau in Deutschland.
+Der Betrieb bietet Elektroinstallation, Licht & Beleuchtung, Photovoltaik, Smart Home, Prüfung/Instandhaltung und Baustromverteiler-Vermietung.
+
+## Wichtige Seiten
+- /leistungen: Überblick über alle Leistungen
+- /elektroinstallation: Elektroinstallationen für Neubau, Sanierung und Erweiterung
+- /licht-beleuchtung: Lichtlösungen für Innen- und Außenbereiche
+- /photovoltaik: elektrische Einbindung und Vorbereitung für PV
+- /smart-home: smarte Lösungen für Komfort und Steuerung
+- /pruefung-instandhaltung: Prüfung, Fehlersuche, Reparatur
+- /baustromverteiler-mieten: Vermietung von Baustromverteilern
+- /projekte: Referenznahe Beispiele
+- /einsatzgebiet: Regionale Einsatzorte
+- /faq: häufige Fragen
+- /kontakt: Anfrage und Kontakt
+
+## Kontakt
+- Name: Elektro Kunath
+- Inhaber: Nico Kunath
+- Rolle: Elektrotechnikermeister
+- Region: Pulsnitz / Oberlichtenau / Umgebung

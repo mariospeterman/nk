@@ -1,0 +1,44 @@
+# Elektro Kunath - Strukturierte Inhaltsübersicht
+
+## Profil
+Meistergeführter Elektrobetrieb für private und gewerbliche Kunden in Pulsnitz und Umgebung.
+Fokus: klare Kommunikation, fachgerechte Ausführung, planbare Abläufe.
+
+## Leistungen
+- Elektroinstallation
+- Licht & Beleuchtung
+- Photovoltaik (elektrotechnische Einbindung)
+- Smart Home
+- Prüfung & Instandhaltung
+- Baustromverteiler mieten
+
+## Zielgruppen
+- Privatkunden
+- Bauherren / Modernisierung
+- Kleine Gewerbekunden
+- Baustellen mit temporärer Stromversorgung
+
+## Kernseiten
+- /
+- /leistungen
+- /elektroinstallation
+- /licht-beleuchtung
+- /photovoltaik
+- /smart-home
+- /pruefung-instandhaltung
+- /baustromverteiler-mieten
+- /projekte
+- /einsatzgebiet
+- /faq
+- /kontakt
+- /impressum
+- /datenschutz
+- /cookies
+
+## Lokale Seiten
+- /elektriker-pulsnitz
+- /elektriker-oberlichtenau
+- /elektriker-kamenz
+- /photovoltaik-elektriker-pulsnitz
+- /smart-home-pulsnitz
+- /baustromverteiler-mieten-pulsnitz
